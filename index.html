@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Fitness</title>
+    <link rel="stylesheet"  media = "screen and (max-width:700px) " href="phone.css">
+</head>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+    body {
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(harshfit.webp);
+        color: rgb(250, 147, 12);
+        font-family: 'Alkatra';
+        font-size: 20px;
+        /* background-repeat: repeat-x; */
+        background-position: center;
+        background-size: cover;
+        /* height: 100%; */
+
+
+    }
+
+
+    .left {
+        color: rgb(1, 243, 231);
+
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        font-size: 19px;
+        /* text-align: center; */
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 23px;
+        text-align: center;
+        font-family: 'Butcherman', cursive;
+    }
+
+    .left img {
+        width: 134px;
+        filter: invert(128%);
+
+        /* font-size: medium; */
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 25px auto;
+        /* border: 2px solid rgb(138, 249, 1); */
+    }
+
+    .right {
+        position: absolute;
+        right: 15px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid rgb(255, 21, 0); */
+    }
+
+    .navbar {
+        display: inline-block;
+        /* font-size: 20px; */
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+        /* text-decoration: none;
+    padding: 34px 23px; */
+    }
+
+    .navbar li a {
+        /* display: inline-block; */
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray
+    }
+
+    .btn {
+        margin: 0px 8px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        padding: 6px 20px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+
+    }
+
+    button:hover {
+        background-color: gray;
+    }
+
+    .container {
+        /* border: 2px solid brown; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 34%;
+        border-radius: 24px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 360px;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: 'Alkatra';
+        /* font-family: 'Anton', sans-serif;
+        font-family: 'Varela Round', sans-serif; */
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 73%;
+        margin: 20px auto;
+
+    }
+    .btn{
+        transition-property: background-color;
+        transition-duration: 1s;
+
+    }
+    .btn:hover{
+        background-color: rgb(87, 72, 72);
+        /* width: 145px;
+        height: 34px; */
+    }
+
+    /* @media screen and (max-width: 720px) {
+  CSS codes go here  body {
+          /* background-color: #333;
+          color: #3498db; */
+    /* }
+} */
+</style>
+
+<body>
+    
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt=" gym image">
+            <div><b> Harsh Fitness</b></div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                
+                <li><a herf="#"> Home</a></li>
+                <!-- <li><a herf="aboutUs.html">About-Us</a></li> -->
+                <li><a href="aboutUs.html">About-Us</a></li>
+                <li><a herf="#">Fitness Data</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li> 
+                <!-- <li><a herf="#">Contact Us</a></li> -->
+            </ul>
+
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            
+            <button class="btn" >Call Us Now</button><button class="btn">Message Me</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Lets start your gym training with Harsh Fitness</h1>
+        <form action="beckand.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Phone No">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Local Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

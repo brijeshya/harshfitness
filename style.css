@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    /* background-color: rgb(177, 252, 0); */
+}
+body{
+    background-color: rgba(66, 52, 153, 0.738);
+    background-image:url("fitness.webp");
+    color: rgb(204, 171, 171);
+}
+    
+
+.top {
+    text-align: center;
+    margin: 0px;
+    padding: 6px;
+    background-color: rgb(180, 154, 154);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 8px solid rgb(200, 255, 0);
+    position: absolute;
+    /* left: 10%; */
+    width: 100%;
+    height: 70px;
+    /* top: 1px; */
+    font-size: 70px;
+
+}
+
+.mid h1{
+    color: rgb(0, 136, 255);
+    background-color: rgb(129, 159, 159);
+    /* background-color: rgb(121, 158, 158); */
+    /* border: 9px solid rgb(0, 0, 255);
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    display: block;
+    width: 230;
+    margin: 25px auto;
+    font-size: 35px; */
+    /* background-image: url("harshfit.webp"); */
+    /* border: 2px solid rgb(138, 249, 1); */
+
+}
+.mid{
+   
+    /* padding: 4px; */
+    color: rgb(255, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    display: block;
+    width: 230;
+    margin: 25px auto;
+    font-size: 35px;
+}
+.mid h3{
+    color: rgb(0, 0, 0);
+}
+.container{
+    padding: 4px;
+    margin: 4px;
+    background-color: rgb(177, 177, 248);
+    border: 0px solid rgb(255, 255, 255);
+}
+
+/* .right {
+
+    border: 3px solid gray;
+
+    color: rgb(7, 197, 45);
+
+    display: inline-block;
+    border: 2px solid rgb(255, 0, 0);
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    font-size: 20px;
+
+} */
+/* .header{
+    background-color: #ee3333;
+} */
